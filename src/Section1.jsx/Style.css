@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital@1&display=swap');
+body{
+    background-color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+#img{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5dd45df7-33f1-4274-97ea-e9c6aca69dad/ed1cb962-411d-4e43-bad2-33f07ae8e341/IN-en-20211108-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+#section1{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    padding: -10px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    height: 90px
+}
+#nav img{
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 180px;
+    height: 90px;
+}
+.btn{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    padding: 20px;
+}
+.lan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    padding: 0 25px;
+    border:1px solid #fff;
+}
+.sign{
+    display: flex;
+    background-color: #e50914;
+    border:1px solid #e50914;
+    color: #fff;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    width: 90px;
+    padding: 0 23px;
+}
+#matter{
+    color: #fff;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 240px;
+    text-align: center;
+}
+#matter h1 {
+    font-size: 50px;
+}
+#matter h6 {
+    font-size: 25px;
+    margin-top: -60px;
+}
+#matter p {
+    font-size: 18px;
+    margin-top: -40px;
+}
+#matter div input{
+    width: 60%;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+#matter div button{
+    width: 29%;
+    height: 50.5px;
+    background-color: #e50914;
+    border:1px solid #e50914;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
